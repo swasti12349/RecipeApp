@@ -45,7 +45,6 @@ public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
     String TAG = "tag";
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -113,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void NotesFiilter(String s) {
-        Log.d("mklmkl", s);
+
         ArrayList<RecipeModel> arrayList = new ArrayList<>();
 
         for(RecipeModel n: HomeFragment.list){

@@ -152,12 +152,12 @@ public class RecipeDetailActivity extends AppCompatActivity {
         ingredientsRV.setAdapter(ingredientAdapter);
         ingredientImgList.clear();
         ingredientImgList.addAll(getIntent().getStringArrayListExtra("ingredientimglist"));
-        Log.d("fsdfsdfg", ingredientImgList.toString());
+
     }
 
     private static List<String> extractIngredientQuantities(String input) {
         List<String> ingredientQuantities = new ArrayList<>();
-        Log.d("fkjjsfsu", input);
+
         Pattern pattern = Pattern.compile("\\b(\\d+(?:\\.\\d+)?)\\s*([a-zA-Z]+)\\b");
         Matcher matcher = pattern.matcher(input);
 
@@ -240,7 +240,7 @@ public class RecipeDetailActivity extends AppCompatActivity {
         saveList(RecipeDetailActivity.this, favItemIdList);
 
         for (int i = 0; i < cartModelList.size(); i++) {
-            Log.d("frfesssssi", cartModelList.get(i).getItemName().toString());
+
         }
 
     }

@@ -40,9 +40,6 @@ public class ShopFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_shop, container, false);
         requireActivity().setTitle("Shop Cart");
 
-//        shoppingList = new ArrayList<>();
-//        shoppingList.addAll(MealsFragment.menuList);
-
         shoppingRV = view.findViewById(R.id.shoppingRV);
         layoutManager = new LinearLayoutManager(getContext());
         shoppingRV.setLayoutManager(layoutManager);
