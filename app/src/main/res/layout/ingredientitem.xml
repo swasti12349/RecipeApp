@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:id="@+id/addicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addicon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/addicon"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ingname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello world"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ingquantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="12.0g"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+</RelativeLayout>

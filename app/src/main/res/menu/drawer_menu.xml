@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/fav"
+            android:title="Favourite"
+            android:icon="@drawable/fav"/>
+        <item
+            android:id="@+id/shop"
+            android:title="Shopping list"
+            android:icon="@drawable/shopcart"/>
+        <item
+            android:id="@+id/meal"
+            android:title="Meal Planning"
+            android:icon="@drawable/meal"/>
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+
+
+    </group>
+</menu>
